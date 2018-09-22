@@ -1,0 +1,30 @@
+users:
+  mike@mike.com:
+    username: mike@mike.com
+    articleIds:
+      - 1
+    commentIds:
+      - 1
+articles:
+  '1':
+    id: 1
+    title: Article 1
+    url: 'http://123.com/read'
+    username: mike@mike.com
+    commentIds:
+      - 1
+    upvotedBy:
+      - mike@mike.com
+    downvotedBy: []
+    comments: []
+nextArticleId: 2
+comments:
+  '1':
+    id: 1
+    body: Comment 1
+    username: mike@mike.com
+    articleId: 1
+    upvotedBy: []
+    downvotedBy:
+      - mike@mike.com
+nextCommentId: 2
